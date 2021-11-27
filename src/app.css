@@ -1,4 +1,9 @@
 /* Write your global styles here, in PostCSS syntax */
 @tailwind base;
 @tailwind components;
+body{
+	background-color: #131c21;
+	color: #d4d5d7;
+	overflow: hidden;
+}
 @tailwind utilities;
