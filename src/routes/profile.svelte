@@ -76,6 +76,6 @@
 		<a href="https://kit.svelte.dev/">
 			<Icon icon="logos:svelte" />
 		</a>
-		<p class="font-medium text-sm">Made with &#10084; by <a href="https://twitter.com/Maharshine" target="_blank" class="hover:underline">Manohar Maharshi</a></p>
+		<p class="font-medium text-sm text-gray-500">Made with &#10084; by <a href="https://twitter.com/Maharshine" target="_blank" class="hover:underline hover:text-green-600">Manohar Maharshi</a></p>
 	</div>
 </main>

@@ -15,11 +15,15 @@
 {#if 1 === currentTab}	
 	<section class="w-full h-full min-h-screen">
 		<section>
-			<div class="h-14 flex items-center justify-center border-b border-[#252d32] py-2 px-3 h-12">	
+			<div class="h-14 flex items-center justify-between space-x-2 border-b border-[#252d32] py-2 px-3 h-12">	
 				<div class="rounded-full w-full space-x-2  bg-[#2a2f32] px-2.5 flex items-center justify-center ">	
 					<Icon icon="ci:search" class="h-5 w-5 pt-0.5 text-[#b1b3b5]"/>
 					<input class="outline-none w-full bg-transparent py-1.5" type="text" placeholder="Search contacts">
 				</div>
+				<div class="w-px h-4 bg-gray-700" />
+				<button title="New Contact" class="w-7 h-7 hover:bg-gray-700 rounded-full grid place-items-center">
+					<Icon icon="akar-icons:circle-plus" class="h-5 w-5 text-[#b1b3b5]"/>
+				</button>
 			</div>
 		</section>	
 		<section class="h-screen pb-[12rem] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-transparent">
@@ -47,11 +51,15 @@
 {#if 2 === currentTab}	
 	<section class="w-full h-full min-h-screen">
 		<section>
-			<div class="h-14 flex items-center justify-center border-b border-[#252d32] py-2 px-3 h-12">	
+			<div class="h-14 flex items-center justify-between space-x-2 border-b border-[#252d32] py-2 px-3 h-12">	
 				<div class="rounded-full w-full space-x-2  bg-[#2a2f32] px-2.5 flex items-center justify-center ">	
 					<Icon icon="ci:search" class="h-5 w-5 pt-0.5 text-[#b1b3b5]"/>
 					<input class="outline-none w-full bg-transparent py-1.5" type="text" placeholder="Search groups">
 				</div>
+				<div class="w-px h-4 bg-gray-700" />
+				<button title="New Group" class="w-7 h-7 hover:bg-gray-700 rounded-full grid place-items-center">
+					<Icon icon="akar-icons:circle-plus" class="h-5 w-5 text-[#b1b3b5]"/>
+				</button>
 			</div>
 		</section>	
 		<section class="h-screen pb-[12rem] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-transparent">

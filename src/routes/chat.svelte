@@ -21,11 +21,11 @@
 				</p>
 			</div>
 		</div>
-		<div class="">	
+		<div>	
 			<Icon icon="bi:three-dots-vertical" class="h-5 w-5 text-[#b1b3b5] hover:text-white cursor-pointer"/>
 		</div>
 	</div>
-	<div class="flex-1 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-transparent">
+	<div class="flex-1 h-screen overflow-y-auto scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-transparent">
 		<div class="mt-4 mb-1 px-3 text-[#f1f1f2f2]">
 			{#each Array(10) as item, index}
 				<div class="w-full flex items-center justify-start">
