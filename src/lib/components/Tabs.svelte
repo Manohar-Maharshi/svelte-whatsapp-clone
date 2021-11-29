@@ -14,11 +14,11 @@
   const handleClick = tabValue => () => (activeTabValue = tabValue);
 </script>
 
-<main class="w-full h-12">
+<main class="w-full h-12 border-b border-[#252d32]">
 	<ul class="w-full flex items-center justify-between space-x-2 h-full text-center ">
 	  {#if Array.isArray(items)}
 	    {#each items as item}
-	      <li on:click={handleClick(item.value)} class="{activeTabValue === item.value ? 'border-b-2 text-green-500 border-green-700' : ''} cursor-pointer w-full h-full text-center flex items-center justify-center">
+	      <li on:click={handleClick(item.value)} class="{activeTabValue === item.value ? 'border-b-2 text-green-500 border-green-700' : 'text-gray-300'}  cursor-pointer w-full h-full text-center flex items-center justify-center">
 	        <span class="font-medium text-sm">{item.label}</span>
 	      </li>
 	    {/each}
